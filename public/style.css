@@ -1,0 +1,40 @@
+*{
+    font-family: 'poppins', sans-serif;
+}
+h2{
+    text-align: center;
+}
+body{
+    background-color: #53AF50;
+}
+.box{
+    padding: 5px;
+    width: 190px;
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(138, 133, 133);
+    
+}
+
+.main{
+    margin: auto;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    justify-content: center;
+}
+
+.submit{
+    background-color: #65ca62;
+    padding: 5px;
+    width: 80%;
+    margin: 8px;
+    border-radius: 5px;
+    /* border: none; */
+    border: 1px solid rgb(138, 133, 133);
+
+    margin-left: 12%;
+}

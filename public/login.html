@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+</head>
+<style>
+    body{
+        background: #84BD65;
+        
+    }
+    h3{
+        align-items: center;
+        text-align:  center;
+    }
+    form{
+        margin: auto;
+        height: 250px;
+        width: 250px;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+        border-radius: 5px;
+    }
+    form input{
+        width: 75%;
+        height: 10%;
+    }
+
+     #submit{
+        background-color: #53AF50;
+        border: none;
+        width: 50%;
+        height: 10%;
+    }
+    .signup{
+        text-align: center;
+        margin-top: 20px;
+        
+    }
+
+    .signup a{
+        text-decoration: none;
+        color: rgb(50, 50, 216);
+    }
+</style>
+<body>
+    <h3>Login Form</h3>
+    <form action="/login" method="post">
+        <input type="email" name="email" id="email" placeholder=jhon34@gmail.com required>
+        <input type="password" name="password" id="password" placeholder="password" required>
+        <input id="submit" type="submit" value="Submit">
+    </form>
+    <div class="signup">
+        <a href="signup.html">Register for new user only</a>
+    </div>
+</body>
+</html>
